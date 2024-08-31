@@ -1,0 +1,115 @@
+/* GLOBALS */
+
+.pokeball {
+  color: red;
+}
+h1 {
+  font-size: 26px;
+
+  text-align: center;
+  margin-top: 25px;
+}
+
+body {
+  border-left: 10px solid red;
+  border-right: 10px solid red;
+  border-radius: 2px;
+  min-height: 100vh;
+  font-family: "Nintendo U", sans-serif;
+}
+
+header {
+  border-bottom: 2px solid red;
+  padding: 10px 0;
+}
+
+button:hover,
+.pokemon-items:hover,
+.type-items:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+/* HEADER*/
+
+header img {
+  width: 80px;
+  padding-left: 10px;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-button-container {
+  width: 190px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header-button-container button {
+  border: none;
+  background-color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* PAGES LIST */
+
+.pokemon-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 25px 10px;
+  gap: 10px;
+}
+
+.pokemon-items {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+}
+
+.pokemon-items h2 {
+  margin: 5px 5px;
+}
+
+/* PAGE SHOW */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.pokemon-card {
+  display: flex;
+  border: 1px solid black;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.pokemon-card h2 {
+  margin-top: 5px;
+}
+
+.type-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.type-items {
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
